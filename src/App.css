@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%); */
+  background-color: #7ee8fa;
+background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+
+h1,
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.filter-todo {
+  padding: .5rem;
+  margin-left:5px;
+}
+
+.todo__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.todo {
+  margin: 0px;
+  background: white;
+  font-size: 1.5rem;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 1s ease;
+  padding:6px;
+  border-radius: 2px;
+}
+
+.MuiListItem-root{
+  width:305px !important;
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+  
+}
+
+.MuiListItem-gutters {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.btn-todo{
+  font-size:5px !important;
+}
+
+.MuiButton-root{
+  min-width: 45px !important;
+}
+
+.line_through{
+  text-decoration: line-through;
+  text-decoration-color: red;
+  text-decoration-style: solid;
+}
+
+.MuiList-padding {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.fall {
+  transform: translateY(10rem) rotateZ(20deg);
+  opacity: 0;
+}
+/* .MuiButton-text {
+  padding: 6px 0px !important;
+} 
+.icon-bt{
+  margin:5px !important;
+  
+ } */
+
+ .checkBtn:after{
+  content:"\2713";
+  position: absolute;
+  /* top: 0px;
+  right: 0; */
+  
+  padding: .5rem;
+  cursor: pointer;
+  pointer-events: none;
+  font-size: 30px;
+ }
+
+ /* Select */
+ /* select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background-image: none;
+} */
+
+/* Custom Select */
+/* .select {
+  margin: .5rem;
+  position: relative;
+  overflow: hidden;
+}
+select {
+  color: #3f51b5;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  width: 8rem;
+} */
+
+/* Arrow */
+
+/* .select::after {
+  content: "\25BC";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: .5rem;
+  background: #3f51b5;
+  cursor: pointer;
+  pointer-events: none;
+} */
+
+
+
+/* 
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+
+ul{
+  list-style-type: none;
+} */
